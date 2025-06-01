@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/';
+const API_URL = 'https://finance-tracker-backend-ew8w.onrender.com/'; // localhost:5000/ for local development
 
 // Add a new transaction
 const addTransaction = async (inputdata) => {
