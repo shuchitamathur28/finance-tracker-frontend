@@ -5,7 +5,6 @@ import { Login, Signup, Dashboard } from "./pages";
 // import Home from "./pages/Home";
 // import Navbar  from "./components/Navbar";
 import Header  from "./components/Header";
-import PrivateRoute from './pages/PrivateRoute';
 import Transactions from './pages/Transactions';
 
 function App() {
@@ -18,7 +17,7 @@ function App() {
             {/* <Navbar /> */}
             <Routes>
               {/* <Route path="/" element={<Home />} /> */}
-              <Route path="/" element={<PrivateRoute element={<Dashboard />} />} />
+              <Route path="/" element={<Dashboard />} />
               <Route path="/dashboard" element={<Dashboard />} />
               <Route path="/transactions" element={<Transactions />} />
               {/* <Route path="/dashboard" element={<PrivateRoute element={<Dashboard />} />} /> */}
