@@ -1,9 +1,10 @@
-# React + Vite
+## 🛠️ Tech Stack
 
-# Tech Stack
+This project is built using the following technologies:
 
-This project is developed in react using vite framework. 
-Tailwind css is used for styling.
-Recharts module is used for charts.
-Axios is used for API calls.
-react-toastify is used to display success and error messages.
+- ⚛️ **React** – JavaScript library for building user interfaces  
+- ⚡ **Vite** – Lightning-fast frontend build tool  
+- 🎨 **Tailwind CSS** – Utility-first CSS framework for styling  
+- 📊 **Recharts** – Charting library for rendering responsive charts  
+- 🔗 **Axios** – Promise-based HTTP client for making API calls  
+- 🔔 **React Toastify** – Library for showing success and error notifications
